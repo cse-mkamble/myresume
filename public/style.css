@@ -12,9 +12,36 @@ code {
     monospace;
 }
 
-.person a:hover{
-  text-decoration: none;
+hr{
+  margin: 0;
 }
+
+.person{
+  color: white;
+  background: slategray;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.person a{
+  color: white;
+}
+
+.heading{
+  display: flex;
+  border-bottom: 1px solid gainsboro;
+  margin: 10px 0;
+}
+
+.heading img {
+  width: 24px;
+  height: 30px;
+  margin: 0 10px 0 0;
+}
+
+/* .person a:hover{
+  text-decoration: none;
+} */
 
 .d-b {
   font-weight: bold;

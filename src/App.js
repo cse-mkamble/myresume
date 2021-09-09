@@ -5,56 +5,58 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div style={{ paddingTop: '10px' }} >
-          <div className="row" style={{ margin: 0 }}>
-            <div className="col-md-7">
-              <h1 className="d-b">Mayur Kamble</h1>
-              <h4 className="d-b">Full Stack Developer</h4>
-            </div>
-            <div className="col-md-5">
-              <div className="person">
-                <table style={{ fontSize: '20px' }}>
-                  <tbody>
-                    <tr>
-
-                      <td><img style={{ width: '24px', height: '24px', margin: '8px' }} src="https://res.cloudinary.com/mayurkamble/image/upload/v1631013116/image/gmjk9ke5lmtpyllaeah0.png" /></td>
-                      <td><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=cse.mkamble@gmail.com" target="_blank" >cse.mkamble@gmail.com</a></td>
-
-                    </tr>
-                    <tr>
-
-                      <td><img style={{ width: '24px', height: '24px', margin: '8px' }} src="https://res.cloudinary.com/mayurkamble/image/upload/v1631013113/image/cat6qvix6jbvzcf58ueb.png" /></td>
-                      <td>+91 95119 45163</td>
-
-                    </tr>
-                    <tr>
-                      <td><img style={{ width: '24px', height: '24px', margin: '8px' }} src="https://res.cloudinary.com/mayurkamble/image/upload/v1631013116/image/pbgp8inqj3wnl9ilhxq3.png" /></td>
-                      <td>Chandrapur Maharashtra India</td>
-                    </tr>
-                    <tr>
-
-                      <td><img style={{ width: '24px', height: '24px', margin: '8px' }} src="https://res.cloudinary.com/mayurkamble/image/upload/v1631013117/image/anehdvniwprmfndqcmus.png" /></td>
-                      <td><a href="https://github.com/cse-mkamble" target="_blank">github.com/cse-mkamble</a></td>
-
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-          <hr />
-        </div>
         <div>
           <div div className="row" style={{ margin: 0 }}>
+            <div className="col-md-4" style={{ backgroundColor: '#efeff9' }} >
+
+              <div style={{ padding: '10px 0' }} >
+                <div className="person" >
+                  <div style={{ margin: '40px 0' }} >
+                    <h1 className="d-b">Mayur Kamble</h1>
+                    <h4 className="d-b">Full Stack Developer</h4>
+                  </div>
+                  <div>
+                    <div className='m-b-2'>
+                      <table style={{ fontSize: '20px' }}>
+                        <tbody>
+                          <tr>
+
+                            <td><img style={{ width: '28px', height: '28px', margin: '5px' }} src="https://res.cloudinary.com/mayurkamble/image/upload/v1631184831/image/g9fa04atrpzalkrjqskb.png" /></td>
+                            <td><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=cse.mkamble@gmail.com" target="_blank" >cse.mkamble@gmail.com</a></td>
+
+                          </tr>
+                          <tr>
+
+                            <td><img style={{ width: '28px', height: '28px', margin: '5px' }} src="https://res.cloudinary.com/mayurkamble/image/upload/v1631184830/image/u91fawhashxxkmrkbo9b.png" /></td>
+                            <td>+91 95119 45163</td>
+
+                          </tr>
+                          <tr>
+                            <td><img style={{ width: '28px', height: '28px', margin: '5px' }} src="https://res.cloudinary.com/mayurkamble/image/upload/v1631184831/image/akmveirh5qick5cixbao.png" /></td>
+                            <td>Chandrapur Maharashtra India</td>
+                          </tr>
+                          <tr>
+
+                            <td><img style={{ width: '28px', height: '28px', margin: '5px' }} src="https://res.cloudinary.com/mayurkamble/image/upload/v1631184831/image/vohybebastccw1jfl7df.png" /></td>
+                            <td><a href="https://github.com/cse-mkamble" target="_blank">github.com/cse-mkamble</a></td>
+
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
 
-            <div className="col-md-4">
               <div>
 
                 <div className="m-b-2">
                   <div>
-                    <h3 className="d-b">CAREER OBJECTIVE</h3>
-                    <hr />
+                    <div className="heading">
+                      <img src="https://res.cloudinary.com/mayurkamble/image/upload/v1631185993/image/xosyxe2lhbtkbnuoosh0.png" />
+                      <h3 className="d-b">CAREER OBJECTIVE</h3>
+                    </div>
                   </div>
                   <div>
                     <div className="row" style={{ margin: 0, fontSize: '20px' }}>
@@ -67,8 +69,10 @@ class App extends Component {
 
                 <div className="m-b-2">
                   <div>
-                    <h3 className="d-b">EDUCATION</h3>
-                    <hr />
+                    <div className="heading">
+                      <img src="https://res.cloudinary.com/mayurkamble/image/upload/v1631185993/image/xosyxe2lhbtkbnuoosh0.png" />
+                      <h3 className="d-b">EDUCATION</h3>
+                    </div>
                   </div>
                   <div>
 
@@ -109,8 +113,10 @@ class App extends Component {
 
                 <div className="m-b-2">
                   <div>
-                    <h3 className="d-b">KEY SKILLS</h3>
-                    <hr />
+                    <div className="heading">
+                      <img src="https://res.cloudinary.com/mayurkamble/image/upload/v1631185993/image/xosyxe2lhbtkbnuoosh0.png" />
+                      <h3 className="d-b">KEY SKILLS</h3>
+                    </div>
                   </div>
                   <div className="row" style={{ margin: 0 }}>
                     <div style={{ display: 'contents' }}>
@@ -122,11 +128,12 @@ class App extends Component {
                       <div className="keyskills" >MEAN Stack</div>
                       <div className="keyskills" >MERN Stack</div>
                       <div className="keyskills" >React Native</div>
+                      <div className="keyskills" >Android Studio</div>
                     </div>
                   </div>
                 </div>
 
-                <div className="m-b-2">
+                {/* <div className="m-b-2">
                   <div>
                     <h3 className="d-b">LANGUAGE</h3>
                     <hr />
@@ -137,7 +144,7 @@ class App extends Component {
                       <div >Hindi ( Native )</div>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
               </div>
             </div>
@@ -148,10 +155,12 @@ class App extends Component {
               <div>
                 <div>
 
-                  <div className="m-b-2">
+                  <div style={{ margin: '20px 0' }} >
                     <div>
-                      <h3 className="d-b">EXPERIENCE</h3>
-                      <hr />
+                      <div className="heading">
+                        <img src="https://res.cloudinary.com/mayurkamble/image/upload/v1631185993/image/xosyxe2lhbtkbnuoosh0.png" />
+                        <h3 className="d-b">EXPERIENCE</h3>
+                      </div>
                     </div>
                     <div>
 
@@ -160,7 +169,7 @@ class App extends Component {
                           <div>
                             <div className="row" style={{ margin: 0, fontSize: '20px' }}>
                               <div>
-                                <h5>Internship <strong>Hind Software Pvt.Ltd.</strong> [4 Week] <a className="intern-certi" href="" target="_blank">[Certificate]</a> <br />|| <strong>DEC 2018 - JAN 2019</strong></h5>
+                                <h5>Internship <strong>Hind Software Pvt.Ltd.</strong> [4 Week] <a href="" target="_blank">[Certificate]</a> <br />|| <strong>DEC 2018 - JAN 2019</strong></h5>
                               </div>
                               <ul>
                                 <li>Creatinga code analysis environment for <strong>C</strong> and <strong>C++</strong>.</li>
@@ -176,12 +185,11 @@ class App extends Component {
                           <div>
                             <div className="row" style={{ margin: 0, fontSize: '20px' }}>
                               <div>
-                                <h5>Internship <strong>Cluebix Software Pvt.Ltd.</strong> [4 Week] <a className="intern-certi" href="https://drive.google.com/file/d/13B2K4Hu41-lTizfYU2KEfYUwW1bz8hmG/view" target="_blank">[Certificate]</a> <br />|| <strong>MAY 2020 - JUNE 2020</strong></h5>
+                                <h5>Internship <strong>Cluebix Software Pvt.Ltd.</strong> [4 Week] <a href="https://drive.google.com/file/d/13B2K4Hu41-lTizfYU2KEfYUwW1bz8hmG/view" target="_blank">[Certificate]</a> <br />|| <strong>MAY 2020 - JUNE 2020</strong></h5>
                               </div>
                               <ul>
                                 <li>Writing clean and efficient codes for <strong>Android</strong> applications.</li>
-                                <li>Monitoring the performance of live apps and work on optimizing them at the code level.</li>
-                                <li>Identifying and resolving bottlenecks, rectifying bugs and enhancing application performance.</li>
+                                <li>Monitoring the performance of live apps and work on optimizing them at the code level. Identifying and resolving bottlenecks, rectifying bugs and enhancing application performance.</li>
                               </ul>
                             </div>
                           </div>
@@ -193,7 +201,7 @@ class App extends Component {
                           <div>
                             <div className="row" style={{ margin: 0, fontSize: '20px' }}>
                               <div>
-                                <h5>Internship <strong>GirlScript Technologies Pvt. Ltd.</strong> [4 Week] <a className="intern-certi" href="https://drive.google.com/file/d/1ccb4a8v5AXhMlKBhMnYLaZ-jNwRLmFpG/view" target="_blank">[Certificate]</a> <br />|| <strong>APR 2021 - MAY 2021</strong></h5>
+                                <h5>Internship <strong>GirlScript Technologies Pvt. Ltd.</strong> [4 Week] <a href="https://drive.google.com/file/d/1ccb4a8v5AXhMlKBhMnYLaZ-jNwRLmFpG/view" target="_blank">[Certificate]</a> <br />|| <strong>APR 2021 - MAY 2021</strong></h5>
                               </div>
                               <ul><li>Developed programming skills in <strong>C++</strong> including <strong>Data Structures</strong> and <strong>Algorithms</strong>.</li></ul>
                             </div>
@@ -206,8 +214,10 @@ class App extends Component {
 
                   <div className="m-b-2">
                     <div>
-                      <h3 className="d-b">PROJECT</h3>
-                      <hr />
+                      <div className="heading">
+                        <img src="https://res.cloudinary.com/mayurkamble/image/upload/v1631185993/image/xosyxe2lhbtkbnuoosh0.png" />
+                        <h3 className="d-b">PROJECT</h3>
+                      </div>
                     </div>
                     <div>
 
@@ -215,12 +225,11 @@ class App extends Component {
                         <div>
                           <div className="row" style={{ margin: 0, fontSize: '20px' }}>
                             <div>
-                              <h5><strong>Food - Delivery App ( Mini-Project )</strong> <a href="https://github.com/cse-mkamble/food_delivery_app" target="_blank" >[Source Code]</a> <a href="" target="_blank">[Demo]</a></h5>
+                              <h5><strong>Food - Delivery App ( Mini-Project )</strong> <a href="https://github.com/cse-mkamble/food_delivery_app" target="_blank" >[Source Code]</a></h5>
                             </div>
                             <ul>
-                              <li>Creatinga code analysis environment for <strong>C</strong> and <strong>C++</strong>.</li>
-                              <li>Integrate and extended tool for test coverage using <strong>Java</strong> and <strong>Python</strong>.</li>
-                              <li>Creatinga code analysis environment for <strong>C</strong> and <strong>C++</strong>.</li>
+                              <li>Food Delivery Drivers transport food items from production areas to customers.</li>
+                              <li>Tech Involved: <strong>MERN Stack</strong>.</li>
                             </ul>
                           </div>
                         </div>
@@ -230,12 +239,11 @@ class App extends Component {
                         <div>
                           <div className="row" style={{ margin: 0, fontSize: '20px' }}>
                             <div>
-                              <h5><strong>ReachMe - Social Network App</strong> <a href="https://github.com/cse-mkamble/reachme-final" target="_blank" >[Source Code]</a> <a href="https://reachmelite.herokuapp.com/" target="_blank">[Demo]</a></h5>
+                              <h5><strong>ReachMe - Social Network App</strong> <a href="https://github.com/cse-mkamble/reachme-final" target="_blank" >[Source Code]</a> <a href="https://reachmelite.herokuapp.com/" target="_blank">[Live]</a></h5>
                             </div>
                             <ul>
-                              <li>Creatinga code analysis environment for <strong>C</strong> and <strong>C++</strong>.</li>
-                              <li>Integrate and extended tool for test coverage using <strong>Java</strong> and <strong>Python</strong>.</li>
-                              <li>Creatinga code analysis environment for <strong>C</strong> and <strong>C++</strong>.</li>
+                              <li>Participated in the entire phase of development cycle from design, testing, and implementation.</li>
+                              <li>Tech Involved: <strong>socket.io, MERN Stack</strong> with <strong>PWA</strong>.</li>
                             </ul>
                           </div>
                         </div>
@@ -245,12 +253,13 @@ class App extends Component {
                         <div>
                           <div className="row" style={{ margin: 0, fontSize: '20px' }}>
                             <div>
-                              <h5><strong>AZtecCNC - Ecommerce Website</strong> <a href="https://github.com/cse-mkamble/Ecommerce_Website_Server" target="_blank" >[Source Code]</a> <a href="https://gallant-brown-34d5f0.netlify.app/" target="_blank">[Demo]</a></h5>
+                              <h5><strong>AZtecCNC - Ecommerce Website</strong> <a href="https://github.com/cse-mkamble/Ecommerce_Website_Server" target="_blank" >[Source Code]</a> <a href="https://gallant-brown-34d5f0.netlify.app/" target="_blank">[Live]</a></h5>
                             </div>
                             <ul>
-                              <li>Creatinga code analysis environment for <strong>C</strong> and <strong>C++</strong>.</li>
-                              <li>Integrate and extended tool for test coverage using <strong>Java</strong> and <strong>Python</strong>.</li>
-                              <li>Creatinga code analysis environment for <strong>C</strong> and <strong>C++</strong>.</li>
+                              <li>Worked with e-commerce databases to develop shopping cart manager.</li>
+                              <li>Designed retail line applications for different websites.</li>
+                              <li>Tested websites for cross browser compatibility.</li>
+                              <li>Tech Involved: <strong>MERN Stack</strong> with <strong>PWA</strong>.</li>
                             </ul>
                           </div>
                         </div>
@@ -265,7 +274,7 @@ class App extends Component {
                             <ul>
                               <li>A web app built with the purpose to lern the use of WebSockets and Real-Time data transfer.</li>
                               <li>User can create a group and other people can join and chat in that group.</li>
-                              <li>Tech Involved: <strong>C</strong> and <strong>C++</strong>.</li>
+                              <li>Tech Involved: <strong>socket.io, expressJS, PHP, SQL</strong> and <strong>Android Studio</strong>.</li>
                             </ul>
                           </div>
                         </div>
@@ -280,6 +289,9 @@ class App extends Component {
 
 
 
+          </div>
+          <div style={{ borderTop: '2px solid #efeff9', padding: '10px', textAlign: 'end' }}>
+            <div style={{ fontSize: '18px' }} >Online : https://cse-mkamble.online/resume</div>
           </div>
         </div>
       </div>
