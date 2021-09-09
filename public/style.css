@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+.person a:hover{
+  text-decoration: none;
+}
+
 .d-b {
   font-weight: bold;
 }
