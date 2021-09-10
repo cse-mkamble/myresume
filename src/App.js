@@ -6,6 +6,9 @@ class App extends Component {
     return (
       <div>
         <div>
+          <div style={{ borderBottom: '2px solid #efeff9', padding: '10px', textAlign: 'end' }}>
+            <div style={{ fontSize: '18px' }} ><a href="" target="_blank" >Online: cse-mkamble.online/resume</a></div>
+          </div>
           <div div className="row" style={{ margin: 0 }}>
             <div className="col-md-4" style={{ backgroundColor: '#efeff9' }} >
 
@@ -132,24 +135,8 @@ class App extends Component {
                     </div>
                   </div>
                 </div>
-
-                {/* <div className="m-b-2">
-                  <div>
-                    <h3 className="d-b">LANGUAGE</h3>
-                    <hr />
-                  </div>
-                  <div className="row" style={{ margin: 0, fontSize: '20px' }}>
-                    <div>
-                      <div >English ( Beginner )</div>
-                      <div >Hindi ( Native )</div>
-                    </div>
-                  </div>
-                </div> */}
-
               </div>
             </div>
-
-
 
             <div className="col-md-8" >
               <div>
@@ -287,11 +274,6 @@ class App extends Component {
               </div>
             </div>
 
-
-
-          </div>
-          <div style={{ borderTop: '2px solid #efeff9', padding: '10px', textAlign: 'end' }}>
-            <div style={{ fontSize: '18px' }} >Online : https://cse-mkamble.online/resume</div>
           </div>
         </div>
       </div>
