@@ -6,43 +6,37 @@ class App extends Component {
     return (
       <div>
         <div>
-          <div style={{ borderBottom: '2px solid #efeff9', padding: '10px', textAlign: 'end' }}>
-            <div style={{ fontSize: '18px' }} ><a href="" target="_blank" >Online: cse-mkamble.online/resume</a></div>
-          </div>
-          <div div className="row" style={{ margin: 0 }}>
-            <div className="col-md-4" style={{ backgroundColor: '#efeff9' }} >
-
-              <div style={{ padding: '10px 0' }} >
-                <div className="person" >
-                  <div style={{ margin: '40px 0' }} >
+          <div style={{ paddingTop: '10px' }}>
+            <div div className="row" style={{ margin: 0 }}>
+              <div className="col-md-8">
+                <div>
+                  <div>
                     <h1 className="d-b">Mayur Kamble</h1>
                     <h4 className="d-b">Full Stack Developer</h4>
                   </div>
+                </div>
+              </div>
+              <div className="col-md-4" >
+                <div>
                   <div>
                     <div className='m-b-2'>
                       <table style={{ fontSize: '20px' }}>
                         <tbody>
                           <tr>
-
-                            <td><img style={{ width: '28px', height: '28px', margin: '5px' }} src="https://res.cloudinary.com/mayurkamble/image/upload/v1631184831/image/g9fa04atrpzalkrjqskb.png" /></td>
+                            <td><img style={{ width: '28px', height: '28px', margin: '5px' }} src="https://res.cloudinary.com/mayurkamble/image/upload/v1631013116/image/gmjk9ke5lmtpyllaeah0.png" /></td>
                             <td><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=cse.mkamble@gmail.com" target="_blank" >cse.mkamble@gmail.com</a></td>
-
                           </tr>
                           <tr>
-
-                            <td><img style={{ width: '28px', height: '28px', margin: '5px' }} src="https://res.cloudinary.com/mayurkamble/image/upload/v1631184830/image/u91fawhashxxkmrkbo9b.png" /></td>
+                            <td><img style={{ width: '28px', height: '28px', margin: '5px' }} src="https://res.cloudinary.com/mayurkamble/image/upload/v1631013113/image/cat6qvix6jbvzcf58ueb.png" /></td>
                             <td>+91 95119 45163</td>
-
                           </tr>
                           <tr>
-                            <td><img style={{ width: '28px', height: '28px', margin: '5px' }} src="https://res.cloudinary.com/mayurkamble/image/upload/v1631184831/image/akmveirh5qick5cixbao.png" /></td>
+                            <td><img style={{ width: '28px', height: '28px', margin: '5px' }} src="https://res.cloudinary.com/mayurkamble/image/upload/v1631013116/image/pbgp8inqj3wnl9ilhxq3.png" /></td>
                             <td>Chandrapur Maharashtra India</td>
                           </tr>
                           <tr>
-
-                            <td><img style={{ width: '28px', height: '28px', margin: '5px' }} src="https://res.cloudinary.com/mayurkamble/image/upload/v1631184831/image/vohybebastccw1jfl7df.png" /></td>
+                            <td><img style={{ width: '28px', height: '28px', margin: '5px' }} src="https://res.cloudinary.com/mayurkamble/image/upload/v1631013117/image/anehdvniwprmfndqcmus.png" /></td>
                             <td><a href="https://github.com/cse-mkamble" target="_blank">github.com/cse-mkamble</a></td>
-
                           </tr>
                         </tbody>
                       </table>
@@ -50,8 +44,11 @@ class App extends Component {
                   </div>
                 </div>
               </div>
-
-
+            </div>
+          </div>
+          <hr />
+          <div div className="row" style={{ margin: 0 }}>
+            <div className="col-md-4"  >
               <div>
 
                 <div className="m-b-2">
@@ -61,6 +58,7 @@ class App extends Component {
                       <h3 className="d-b">CAREER OBJECTIVE</h3>
                     </div>
                   </div>
+                  <hr />
                   <div>
                     <div className="row" style={{ margin: 0, fontSize: '20px' }}>
                       <div style={{ textIndent: '100px' }}>
@@ -77,6 +75,7 @@ class App extends Component {
                       <h3 className="d-b">EDUCATION</h3>
                     </div>
                   </div>
+                  <hr />
                   <div>
 
                     <div>
@@ -87,7 +86,7 @@ class App extends Component {
                               <h5 className="d-b">B-Tech In Computer Science And Engineering<br />|| JUNE 2018 - Present</h5>
                               <div>
                                 <h4 className="d-b">Dr. Babasaheb Ambedkar Technological University</h4>
-                                <ul><li>Graduation with current <strong> 7.94 CGPA</strong></li></ul>
+                                <ul><li>Graduation with current(5th sem) <strong> 7.94 CGPA</strong></li></ul>
                               </div>
                             </div>
                           </div>
@@ -121,6 +120,7 @@ class App extends Component {
                       <h3 className="d-b">KEY SKILLS</h3>
                     </div>
                   </div>
+                  <hr />
                   <div className="row" style={{ margin: 0 }}>
                     <div style={{ display: 'contents' }}>
                       <div className="keyskills" >c#.net</div>
@@ -135,6 +135,23 @@ class App extends Component {
                     </div>
                   </div>
                 </div>
+
+                <div className="m-b-2">
+                  <div>
+                    <div className="heading">
+                      <img src="https://res.cloudinary.com/mayurkamble/image/upload/v1631185993/image/xosyxe2lhbtkbnuoosh0.png" />
+                      <h3 className="d-b">LANGUAGE</h3>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="row" style={{ margin: 0, fontSize: '20px' }}>
+                    <div>
+                      <div>English ( Beginner )</div>
+                      <div>Hindi ( Native )</div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
 
@@ -142,13 +159,14 @@ class App extends Component {
               <div>
                 <div>
 
-                  <div style={{ margin: '20px 0' }} >
+                  <div >
                     <div>
                       <div className="heading">
                         <img src="https://res.cloudinary.com/mayurkamble/image/upload/v1631185993/image/xosyxe2lhbtkbnuoosh0.png" />
                         <h3 className="d-b">EXPERIENCE</h3>
                       </div>
                     </div>
+                    <hr />
                     <div>
 
                       <div>
@@ -206,6 +224,7 @@ class App extends Component {
                         <h3 className="d-b">PROJECT</h3>
                       </div>
                     </div>
+                    <hr />
                     <div>
 
                       <div className="m-b-1">
@@ -226,7 +245,7 @@ class App extends Component {
                         <div>
                           <div className="row" style={{ margin: 0, fontSize: '20px' }}>
                             <div>
-                              <h5><strong>ReachMe - Social Network App</strong> <a href="https://github.com/cse-mkamble/reachme-final" target="_blank" >[Source Code]</a> <a href="https://reachmelite.herokuapp.com/" target="_blank">[Live]</a></h5>
+                              <h5><strong>ReachMe - Social Network App</strong> <a href="https://github.com/cse-mkamble/reachme-full" target="_blank" >[Source Code]</a> <a href="https://reachmelite.herokuapp.com/" target="_blank">[Live]</a></h5>
                             </div>
                             <ul>
                               <li>Participated in the entire phase of development cycle from design, testing, and implementation.</li>
@@ -240,7 +259,7 @@ class App extends Component {
                         <div>
                           <div className="row" style={{ margin: 0, fontSize: '20px' }}>
                             <div>
-                              <h5><strong>AZtecCNC - Ecommerce Website</strong> <a href="https://github.com/cse-mkamble/Ecommerce_Website_Server" target="_blank" >[Source Code]</a> <a href="https://gallant-brown-34d5f0.netlify.app/" target="_blank">[Live]</a></h5>
+                              <h5><strong>AZtecCNC - Ecommerce Website</strong> <a href="https://github.com/cse-mkamble/Ecommerce_Website" target="_blank" >[Source Code]</a> <a href="https://gallant-brown-34d5f0.netlify.app/" target="_blank">[Live]</a></h5>
                             </div>
                             <ul>
                               <li>Worked with e-commerce databases to develop shopping cart manager.</li>
