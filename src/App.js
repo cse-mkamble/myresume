@@ -163,7 +163,7 @@ class App extends Component {
                     <div>
                       <div className="heading">
                         <img src="https://res.cloudinary.com/mayurkamble/image/upload/v1631185993/image/xosyxe2lhbtkbnuoosh0.png" />
-                        <h3 className="d-b">EXPERIENCE</h3>
+                        <h3 className="d-b">INTERNSHIP</h3>
                       </div>
                     </div>
                     <hr />
@@ -174,7 +174,7 @@ class App extends Component {
                           <div>
                             <div className="row" style={{ margin: 0, fontSize: '20px' }}>
                               <div>
-                                <h5>Internship <strong>Hind Software Pvt.Ltd.</strong> [4 Week] <a href="" target="_blank">[Certificate]</a> <br />|| <strong>DEC 2018 - JAN 2019</strong></h5>
+                                <h5><strong>Hind Software Pvt.Ltd.</strong> [4 Week] <a href="" target="_blank">[Certificate]</a> <br />|| <strong>DEC 2018 - JAN 2019</strong></h5>
                               </div>
                               <ul>
                                 <li>Creatinga code analysis environment for <strong>C</strong> and <strong>C++</strong>.</li>
@@ -190,7 +190,7 @@ class App extends Component {
                           <div>
                             <div className="row" style={{ margin: 0, fontSize: '20px' }}>
                               <div>
-                                <h5>Internship <strong>Cluebix Software Pvt.Ltd.</strong> [4 Week] <a href="https://drive.google.com/file/d/13B2K4Hu41-lTizfYU2KEfYUwW1bz8hmG/view" target="_blank">[Certificate]</a> <br />|| <strong>MAY 2020 - JUNE 2020</strong></h5>
+                                <h5><strong>Cluebix Software Pvt.Ltd.</strong> [4 Week] <a href="https://drive.google.com/file/d/13B2K4Hu41-lTizfYU2KEfYUwW1bz8hmG/view" target="_blank">[Certificate]</a> <br />|| <strong>MAY 2020 - JUNE 2020</strong></h5>
                               </div>
                               <ul>
                                 <li>Writing clean and efficient codes for <strong>Android</strong> applications.</li>
@@ -206,7 +206,7 @@ class App extends Component {
                           <div>
                             <div className="row" style={{ margin: 0, fontSize: '20px' }}>
                               <div>
-                                <h5>Internship <strong>GirlScript Technologies Pvt. Ltd.</strong> [4 Week] <a href="https://drive.google.com/file/d/1ccb4a8v5AXhMlKBhMnYLaZ-jNwRLmFpG/view" target="_blank">[Certificate]</a> <br />|| <strong>APR 2021 - MAY 2021</strong></h5>
+                                <h5><strong>GirlScript Technologies Pvt. Ltd.</strong> [4 Week] <a href="https://drive.google.com/file/d/1ccb4a8v5AXhMlKBhMnYLaZ-jNwRLmFpG/view" target="_blank">[Certificate]</a> <br />|| <strong>APR 2021 - MAY 2021</strong></h5>
                               </div>
                               <ul><li>Developed programming skills in <strong>C++</strong> including <strong>Data Structures</strong> and <strong>Algorithms</strong>.</li></ul>
                             </div>
